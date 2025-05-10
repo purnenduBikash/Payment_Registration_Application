@@ -24,7 +24,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors(options=>
 options.WithOrigins("http://localhost:4200")
 .AllowAnyMethod()
-.AllowAnyHeader());//this is to make compartrible our web api with port 4200
+.AllowAnyHeader());//this is to make compartrible our web api with port 4200 because our web api having different port number
 
 app.UseHttpsRedirection();
 
